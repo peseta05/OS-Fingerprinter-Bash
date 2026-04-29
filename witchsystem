@@ -1,0 +1,18 @@
+#!/bin/bash
+direccion=$1
+if [ -z "$direccion" ]; then
+    echo "Ejemplo de uso: $0 192.168.1.32"
+    exit 1
+fi
+ttl=$(ping -c 1 $direccion | grep -oP 'ttl=\K\d+')
+if [ -z "$ttl" ]; then
+    echo "[-] Host inalcanzable."
+    exit 1
+fi
+if [[ "$ttl" -le 64 ]]; then
+	echo "[+] El host con la direccion IP: $direccion es un Sistema Operativo Linux/MacOS."
+elif [[ "$ttl" -le 128 ]]; then
+	echo "[+] El host con la direccion IP: $direccion es un Sistema Operativo Windows."
+else
+	echo "[+] El host con la direccion IP: $direccion es un Dispositivo de Red."
+fi
