@@ -6,7 +6,7 @@ Es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar
 El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el objetivo:
 *   **TTL ≤ 64:** Linux / macOS
 *   **TTL ≤ 128:** Windows
-*   **TTL > 128:** Dispositivos de Red (Cisco, Solaris, etc.)
+*   **TTL > 128:** Dispositivos de Red (Cisco, Solaris, etc.) o sistemas Unix antiguo.
 
 ## 🚀 Instalación y Uso
 
