@@ -12,20 +12,31 @@ El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/peseta05/OS-Fingerprinter-Bash.git
    cd witchsystem
    ```
 
 2. **Dar permisos de ejecución:**
    ```bash
-   chmod +x witchsystem.sh
+   chmod +x witchsystem
    ```
 
 3. **Ejecutar:**
    ```bash
-   ./witchsystem.sh 192.168.1.1
+   ./witchsystem 192.168.1.1
    ```
+## Instalación en el Sistema (Como comando global)
+Si quieres usar witchsystem desde cualquier parte de tu terminal, sigue estos pasos:
+   ```bash
+   # 1. Mueve el archivo a /usr/local/bin con el nombre final
+   sudo cp witchsystem.sh /usr/local/bin/witchsystem
 
+   # 2. Asegúrate de que tenga permisos de ejecución
+   sudo chmod +x /usr/local/bin/witchsystem
+
+   # 3. ¡Listo! Ahora solo escribe el comando seguido de la IP
+   witchsystem 192.168.1.32
+   ```
 ## 🛠️ Requisitos
 *   Bash
 *   Utilidad `ping`
