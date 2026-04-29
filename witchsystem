@@ -4,7 +4,7 @@ if [ -z "$direccion" ]; then
     echo "[!] Ejemplo de uso: $0 192.168.1.32"
     exit 1
 fi
-ttl=$(ping -c 1 $direccion | grep -oP 'ttl=\K\d+')
+ttl=$(ping -c 1 "$direccion" | grep -oP 'ttl=\K\d+')
 if [ -z "$ttl" ]; then
     echo "[-] Host inalcanzable."
     exit 1
