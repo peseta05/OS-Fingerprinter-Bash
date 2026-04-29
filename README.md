@@ -13,7 +13,7 @@ El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el
 1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/peseta05/OS-Fingerprinter-Bash.git
-   cd witchsystem
+   cd OS-Fingerprinter-Bash
    ```
 
 2. **Dar permisos de ejecución:**
