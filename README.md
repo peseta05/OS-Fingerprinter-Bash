@@ -29,19 +29,19 @@ El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el
 Si quieres usar **witchsystem** desde cualquier parte de tu terminal, sigue estos pasos:
 
 1. **Mueve el archivo a /usr/local/bin con el nombre final**
-```bash
-sudo cp witchsystem /usr/local/bin/witchsystem
-```
+   ```bash
+   sudo cp witchsystem /usr/local/bin/witchsystem
+   ```
 
 2. **Asegúrate de que tenga permisos de ejecución**
-```bash
-sudo chmod +x /usr/local/bin/witchsystem
-```
+   ```bash
+   sudo chmod +x /usr/local/bin/witchsystem
+   ```
 
 3. **¡Listo! Ahora solo escribe el comando seguido de la IP**
-```bash
-witchsystem Ip_Objetivo
-```
+   ```bash
+   witchsystem Ip_Objetivo
+   ```
 
 ## 🛠️ Requisitos
 *   Bash
