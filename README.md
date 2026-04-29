@@ -1,6 +1,6 @@
 # 🧙‍♂️ witchsystem
 
-**witchsystem** es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar el sistema operativo de un host remoto analizando la respuesta de los paquetes ICMP.
+Es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar el sistema operativo de un host remoto analizando la respuesta de los paquetes ICMP.
 
 ## ✨ ¿Cómo funciona?
 El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el objetivo:
