@@ -10,9 +10,9 @@ if [ -z "$ttl" ]; then
     exit 1
 fi
 if [[ "$ttl" -le 64 ]]; then
-	echo "[+] El host con la direccion IP: $direccion con TTL: $ttl es un Sistema Operativo Linux/MacOS."
+	echo "[+] El host con la Direccion IP: $direccion con TTL: $ttl, Es un Sistema Operativo Linux/MacOS."
 elif [[ "$ttl" -le 128 ]]; then
-	echo "[+] El host con la direccion IP: $direccion con TTL: $ttl es un Sistema Operativo Windows."
+	echo "[+] El host con la Direccion IP: $direccion con TTL: $ttl, Es un Sistema Operativo Windows."
 else
-	echo "[+] El host con la direccion IP: $direccion con TTL: $ttl es un Dispositivo de Red o un sistema Unix antiguo."
+	echo "[+] El host con la Direccion IP: $direccion con TTL: $ttl, Es un Dispositivo de Red o un sistema Unix antiguo."
 fi
