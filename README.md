@@ -26,7 +26,7 @@ El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el
    ./witchsystem 192.168.1.1
    ```
 ## Instalación en el Sistema (Como comando global)
-Si quieres usar witchsystem desde cualquier parte de tu terminal, sigue estos pasos:
+Si quieres usar **witchsystem** desde cualquier parte de tu terminal, sigue estos pasos:
    ```bash
    # 1. Mueve el archivo a /usr/local/bin con el nombre final
    sudo cp witchsystem.sh /usr/local/bin/witchsystem
