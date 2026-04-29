@@ -38,7 +38,7 @@ sudo cp witchsystem /usr/local/bin/witchsystem
 sudo chmod +x /usr/local/bin/witchsystem
 ```
 
-3. ¡Listo! Ahora solo escribe el comando seguido de la IP
+3. **¡Listo! Ahora solo escribe el comando seguido de la IP**
 ```bash
 witchsystem Ip_Objetivo
 ```
