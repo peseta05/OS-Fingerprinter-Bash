@@ -1,4 +1,4 @@
-# 🧙‍♂️ witchsystem
+# 🧙‍♂️ whatsystem
 
 Es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar el sistema operativo de un host remoto analizando la respuesta de los paquetes ICMP.
 
@@ -18,29 +18,29 @@ El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el
 
 2. **Dar permisos de ejecución:**
    ```bash
-   chmod +x witchsystem
+   chmod +x whatsystem
    ```
 
 3. **Ejecutar:**
    ```bash
-   ./witchsystem Ip_Objetivo
+   ./whatsystem Ip_Objetivo
    ```
 
-Si quieres usar **witchsystem** desde cualquier parte de tu terminal, sigue estos pasos:
+Si quieres usar **whatsystem** desde cualquier parte de tu terminal, sigue estos pasos:
 
 1. **Mueve el archivo a /usr/local/bin con el nombre final**
    ```bash
-   cp witchsystem /usr/local/bin/witchsystem
+   cp whatsystem /usr/local/bin/whatsystem
    ```
 
 2. **Asegúrate de que tenga permisos de ejecución**
    ```bash
-   chmod +x /usr/local/bin/witchsystem
+   chmod +x /usr/local/bin/whatsystem
    ```
 
 3. **¡Listo! Ahora solo escribe el comando seguido de la IP**
    ```bash
-   witchsystem Ip_Objetivo
+   whatsystem Ip_Objetivo
    ```
 
 ## 🛠️ Requisitos
