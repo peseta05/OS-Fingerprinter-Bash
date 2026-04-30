@@ -1,4 +1,6 @@
 #!/bin/bash
+#Autor: Ignacio Millán Ledesma
+#Alias: Peseta05
 direccion=$1
 if [ -z "$direccion" ]; then
     echo "[!] Ejemplo de uso: $0 192.168.1.32"
