@@ -1,4 +1,4 @@
-# 🧙‍♂️ whatsystem
+# 🧙‍♂️ Whatsystem
 
 Es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar el sistema operativo de un host remoto analizando la respuesta de los paquetes ICMP.
 
