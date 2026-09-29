@@ -2,7 +2,7 @@
 
 Es una herramienta de reconocimiento pasivo escrita en Bash que permite adivinar el sistema operativo de un host remoto analizando la respuesta de los paquetes ICMP.
 
-<img align="center" width="687" height="228" alt="Screenshot_2026-09-29_16_45_16" src="https://github.com/user-attachments/assets/2fedf966-de22-4046-87c8-2dcbf698fa28" />
+<img text-align="center" width="687" height="228" alt="Screenshot_2026-09-29_16_45_16" src="https://github.com/user-attachments/assets/2fedf966-de22-4046-87c8-2dcbf698fa28" />
 
 ## ✨ ¿Cómo funciona?
 El script detecta la "firma" del valor **TTL (Time To Live)** para clasificar el objetivo:
